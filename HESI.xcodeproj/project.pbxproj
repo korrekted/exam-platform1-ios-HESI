@@ -32,6 +32,7 @@
 		9615595126824D3E00228151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9615595026824D3E00228151 /* LaunchScreen.storyboard */; };
 		9615595426824D4300228151 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9615595326824D4200228151 /* Localizable.strings */; };
 		9615595826824F1800228151 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9615595726824F1800228151 /* GoogleService-Info.plist */; };
+		DE4FA16028D83D0400085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA15F28D83D0400085483 /* Onboarding.Chart.json */; };
 		DEC36ACD2899609E005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC369082899609E005372BC /* UIColorExtension.swift */; };
 		DEC36ACE2899609E005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC369092899609E005372BC /* Collection+Extension.swift */; };
 		DEC36ACF2899609E005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3690A2899609E005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC36BF82899609E005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC36AAF2899609E005372BC /* OImproveCell.swift */; };
 		DEC36BF92899609E005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC36AB12899609E005372BC /* ReferencesTableCell.swift */; };
 		DEC36BFA2899609E005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC36AB22899609E005372BC /* ReferencesTableView.swift */; };
-		DEC36BFB2899609E005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC36AB42899609E005372BC /* Onboarding.Chart.json */; };
 		DEC36BFC2899609E005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC36AB52899609E005372BC /* OWhenStudyCell.swift */; };
 		DEC36BFD2899609E005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC36AB72899609E005372BC /* WelcomeSlide1View.swift */; };
 		DEC36BFE2899609E005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC36AB82899609E005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -422,6 +422,7 @@
 		9615595326824D4200228151 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		9615595726824F1800228151 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AF256FB3202947EB500597B6 /* Pods-HESI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HESI.debug.xcconfig"; path = "Target Support Files/Pods-HESI/Pods-HESI.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4FA15F28D83D0400085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC369082899609E005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC369092899609E005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC3690A2899609E005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -724,7 +725,6 @@
 		DEC36AAF2899609E005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC36AB12899609E005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC36AB22899609E005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC36AB42899609E005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC36AB52899609E005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC36AB72899609E005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC36AB82899609E005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC36AB32899609E005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC36AB42899609E005372BC /* Onboarding.Chart.json */,
+				DE4FA15F28D83D0400085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC36C18289960EC005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC36BFB2899609E005372BC /* Onboarding.Chart.json in Resources */,
 				9615595826824F1800228151 /* GoogleService-Info.plist in Resources */,
 				9615594E26824D3700228151 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				9615594D26824D3700228151 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				9615595426824D4300228151 /* Localizable.strings in Resources */,
 				9615595126824D3E00228151 /* LaunchScreen.storyboard in Resources */,
+				DE4FA16028D83D0400085483 /* Onboarding.Chart.json in Resources */,
 				96054E7C26824AEE00E0F0B0 /* Assets.xcassets in Resources */,
 				9615594F26824D3700228151 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2967,7 +2967,7 @@
 				CODE_SIGN_ENTITLEMENTS = HESI/HESI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/HESI/Resource/Info.plist";
@@ -2976,7 +2976,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.hesi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "HESI Prod";
@@ -2996,7 +2996,7 @@
 				CODE_SIGN_ENTITLEMENTS = HESI/HESI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/HESI/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3004,7 +3004,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.hesi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "HESI Prod";
@@ -3022,7 +3022,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3031,7 +3031,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.hesi.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "HESI Widget Prod";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3058,7 +3058,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.hesi.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "HESI Widget Prod";
